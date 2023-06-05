@@ -115,6 +115,81 @@
     margin-top: 50px;
   }
 
+  /*Profile page CSS*/
+
+  .detail{
+    min-height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .detail .content{
+    max-width: 100%;
+  }
+
+  .detail .content h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #334a38;
+  }
+
+  .detail .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #000000;
+    width: 50%;
+  }
+
+  .detail .content .image{
+    flex: 1 1 30rem;
+  }
+
+  .detail .content .image img{
+    width: 17rem;
+    height: 20rem;
+    align-items: center;
+    margin-top: 6rem;
+  }
+
+
+
+   /*Design page details*/
+
+   .plan{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   }
+
+   .plan .content{
+    max-width: 70rem;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    margin-left: 30px;
+    color: #000000;
+   }
+
+   .plan .content h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #4c6c52;
+  }
+
+  .plan .content h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #4c6c52;
+  }
+
+  .plan .content .image{
+    flex: 1 1 30rem;
+  }
+
+  .plan .content .image img{
+    width: 50%;
+  }
+
 /*Header format and details*/
   nav{
     background-color: #4c6c52;
@@ -199,6 +274,9 @@
         left: 0;
     }
   }
+
+
+
 /*footer format and details*/
   footer{
     background-color: #4c6c52;
