@@ -264,7 +264,7 @@
     }
 
     nav ul{
-        position: fixed;
+        position: static;
         width: 100%;
         background-color: #4c6c52a1;
         height: 100vh;
